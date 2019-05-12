@@ -1,0 +1,97 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+html, body{
+    height: 100%;
+}
+.container-fluid{
+    height: 100%;
+    background-color: #00c0f7 !important;
+}
+.brand-name{
+    font-size: 20px;
+    padding-left: 40px !important;
+}
+.main-content{
+    width: 455px;
+}
+.mt-25{
+    margin-top: 155px;
+}
+.main-content-font{
+    font-size: 47px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.launch-website-btn{
+    background-color: transparent !important;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 10px 28px;
+    cursor: pointer;
+    border-color: #fff;
+    font-size: 21px;
+    font-weight: 100;
+}
+.launch-website-btn:focus {
+    outline: none !important;
+}
+#desktop-nav{
+    background-color: #505050;
+}
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+#desktop-nav a:hover{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+.active{
+    color: #fa0063 !important;
+}
+
+@media only screen and (max-width: 768px){
+    .main-content-font{
+        font-size: 37px;
+    }
+    .main-content{
+        width: 100%;
+    }   
+    .trees-div{
+        display: none;
+    }
+}
